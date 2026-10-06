@@ -25,4 +25,5 @@ gantt
     3.1 Línea base (Baseline)     :c1, after b5, 12d
     3.2 Modelo Elastic Net        :c2, after c1, 15d
     3.3 Contraste de métricas     :c3, after c2, 12d
+    Cierre TT-I                   :milestone, 2027-02-10, 0d
 ```
