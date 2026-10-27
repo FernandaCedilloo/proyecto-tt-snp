@@ -1,0 +1,11 @@
+# Datos pesados genómicos (no subir a GitHub)
+data/raw/*
+data/processed/*
+!.gitkeep
+
+# Archivos de sistema y Python
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
