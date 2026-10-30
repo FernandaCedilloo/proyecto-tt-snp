@@ -1,11 +1,18 @@
-# Datos pesados genómicos (no subir a GitHub)
-data/raw/*
-data/processed/*
-!.gitkeep
+# Entorno virtual
+.venv/
+env/
+venv/
 
-# Archivos de sistema y Python
-.DS_Store
+# Datos e intermedios (no subir CSVs ni TSVs pesados)
+data/metadata/
+*.csv
+*.tsv
+
+# Archivos de Jupyter y VS Code
+.ipynb_checkpoints/
+.vscode/
 __pycache__/
 *.pyc
-.venv/
-.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
